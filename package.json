@@ -6,6 +6,6 @@
     "url": "git://github.com/pkozlowski-opensource/ghbottest.git"
   },
   "dependencies": {
-    "travis-ci-size": "0.0.1"
+    "travis-ci-size": "~0.0.2"
   }
 }
