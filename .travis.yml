@@ -9,4 +9,5 @@
    - echo $TRAVIS_COMMIT_RANGE
    - echo $TRAVIS_PULL_REQUEST
    - echo $TRAVIS_REPO_SLUG
+   - git show-ref refs/heads/${TRAVIS_BRANCH}
    
