@@ -1,0 +1,12 @@
+ language: node_js
+ node_js:
+   - "0.10"
+
+ script:
+   - echo $TRAVIS_BRANCH
+   - echo $TRAVIS_BUILD_NUMBER
+   - echo $TRAVIS_COMMIT
+   - echo $TRAVIS_COMMIT_RANGE
+   - echo $TRAVIS_PULL_REQUEST
+   - echo $TRAVIS_REPO_SLUG
+   
