@@ -9,4 +9,4 @@
    - echo $TRAVIS_COMMIT_RANGE
    - echo $TRAVIS_PULL_REQUEST
    - echo $TRAVIS_REPO_SLUG
-   
+   - node ./travis-ci-size/bin/index.js
